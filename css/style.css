@@ -1,0 +1,422 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,900;1,700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 120px;
+    position: fixed;
+    z-index: 99;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.logo {
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    width: 120px;
+}
+
+nav {
+    width: 70%;
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(242, 85, 101);
+    padding: 15px 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+ul li a:hover {
+    background-color: rgb(242, 85, 101);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.apresentacao {
+    height: 800px;
+    background-image: url(../images/bck-img.PNG);
+    background-size: cover;
+    margin-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.h4-1 {
+    margin-top: 20px;
+    margin-left: 20px;
+    color: rgb(8, 8, 8, 0.7);
+    text-transform: uppercase;
+}
+.h1-1 {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: rgb(8, 8, 8, 0.9);
+    text-transform: uppercase;
+}
+.p-1 {
+    font-weight: 500;
+    color: rgb(8, 8, 8, 0.8);
+    margin-bottom: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+
+}
+.conhecamais {
+    padding: 15px 25px;
+    background-color: rgb(242, 85, 101, 0.7);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+.conhecamais:hover {
+    background-color: rgb(242, 85, 101);
+    text-decoration: none;
+    color: white;
+}
+.texto-apresentacao {
+    width: 70%;
+    height: 310px;
+    background-color: rgb(255, 255, 255, 0.6);
+    border-radius: 10px;
+    margin-right: 200px;
+}
+
+.section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 460px;
+}
+.sobre-resumo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 500px;
+    background-color: rgb(242, 85, 101, 0.7);
+}
+.sobre-texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: white;
+    width: 90%;
+    height: 470px;
+    box-shadow: 1px 1px 5px gray;
+}
+h2 {
+    margin-top: 20px;
+    margin-left: 20px;
+    text-transform: uppercase;
+    color:rgb(8, 8, 8, 0.8);
+}
+h5 {
+    margin-left: 20px;
+    color: rgba(97, 92, 85, 0.7);
+    font-size: medium;
+}
+.resumo-texto {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+.faleconosco {
+    text-align: center;
+    width: 45%;
+    margin-left: 20px;
+    padding: 15px 25px;
+    background-color: rgb(242, 85, 101, 0.7);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.faleconosco:hover {
+    background-color: rgb(242, 85, 101);
+    text-decoration: none;
+    color: white;
+}
+.img-faleconosco{
+    width: 50%;
+    height: 460px;
+}
+.img-faleconosco img {
+    margin-top: -20px;
+    width: 100%;
+    height: 500px;
+    opacity: 0.8;
+}
+.noscontate {
+    width: 100%;
+    height: 80px;
+    margin-top: 25px;
+    background-image: url(../images/bck-cover.jpg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.veja {
+    color: white;
+}
+.noscontate a {
+    padding: 15px 25px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    border-radius: 10px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.noscontate a:hover {
+    background-color: rgb(0, 0, 0);
+}
+.areas-de-atuacao {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.separacao {
+    padding-bottom: 10px;
+    margin: 0px 5px;
+}
+.como-sao-os-trabalhos {
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(242, 85, 101);
+}
+.tipos-trabalho {
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+}
+.texto-trabalho {
+    font-size: x-large;
+    text-transform: none;
+    margin-bottom: 10px;
+}
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+}
+.landing-page img {
+    width: 60%;
+    height: 300px;
+    margin-top: 25px;
+}
+.site-completo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+}
+.site-completo img {
+    width: 60%;
+    height: 300px;
+    margin-top: 25px;
+}
+.linha-vertical {
+    border-left: solid 2px;
+    border-color: rgb(0, 0, 0, 0.7);
+    height: 400px;
+    width: 1%;
+}
+.galeria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.titulo-galeria {
+    margin: 20px 10px 0px 10px;
+    padding-bottom: 30px;
+    text-transform: none;
+}
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 150px;
+}
+.direitos {
+    height: 40px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.autorais {
+    text-transform: uppercase;
+    margin: 0;
+}
+.menu-rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+.baixobaixo {
+    background-color: none;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+}
+.baixobaixo:hover{
+    color: antiquewhite;
+    background-color: none;
+}
+.what {
+    margin: 0;
+}
+
+@media (max-width: 1250px) {
+    .texto-apresentacao {
+        margin: 0;
+        width: 95vw;
+        height: 310px;
+    }
+    .h1-1 {
+        font-size: 2.0rem;
+    }
+    .landing-page img {
+        width: 85%;
+    }
+    .site-completo img {
+        width: 85%;
+    }
+}
+@media (max-width: 880px) {
+    .texto-apresentacao {
+        height: 350px;
+        margin-top: 100px;
+    }
+    .header {
+        flex-direction: column;
+        height: 200px;
+    }
+    ul {
+        flex-wrap: wrap;
+    }
+    ul li a {
+        margin: 10px;
+        padding: 5px 10px;
+    }
+    .img-faleconosco {
+        display: none;
+    }
+    .sobre-resumo {
+        width: 100%;
+    }
+    .veja {
+        font-size: x-large;
+    }
+    .separacao {
+        font-size: x-large;
+    }
+    .tipos-trabalho {
+        flex-direction: column;
+    }
+    .linha-vertical {
+        display: none;
+    }
+    .landing-page {
+        width: 100%;
+    }
+    .landing-page img {
+        width: 90%;
+    }
+    .site-completo {
+        margin-top: 20px;
+        width: 100%;
+    }
+    .site-completo img {
+        width: 90%;
+    }
+}
+
+@media (max-width: 540px) {
+    nav {
+        width: 100%;
+    }
+    ul li a {
+        margin: 10px 0px;
+    }
+    .h4 {
+        font-size: small;
+    }
+    .h1 {
+        font-size: small;
+    }
+    .texto-apresentacao {
+        margin-top: 150px;
+        
+    }
+    .sobre-resumo {
+        font-size: small;
+    }
+    .veja {
+        font-size: large;
+    }
+    .separacao {
+        font-size: larger;
+    }
+    .footer {
+        flex-direction: column;
+        height: 180px;
+    }
+    .dados-contato {
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .direitos {
+        flex-direction: column;
+    }
+}
+@media (max-width: 400px) {
+    .separacao {
+        font-size: medium;
+    }
+    .como-sao-os-trabalhos {
+        font-size: small;
+    }
+    .h4-1 {
+        font-size: 1.2rem;
+    }
+    .h1-1 {
+        font-size: 1.6rem;
+    }
+}
